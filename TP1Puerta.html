@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trabajo Práctico 1</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+    <header>
+        <h1>Encabezado Principal</h1>
+        <ul>
+            <li><a href="#estructura">Ir a Estructura</a></li>
+            <li><a href="#multimedia">Ir a Multimedia</a></li>
+            <li><a href="#formulario">Ir a Formulario</a></li>
+           </ul>
+    </header>
+    <nav>
+        <h2>Esto es un nav</h2>
+    </nav>
+    <ol>
+        <h1 id="estructura"><li>Estructura Básica del Documento HTML</li></h1>
+        <p> Este documento HTML tiene una estructura básica que incluye la declaración de DOCTYPE, etiquetas de metadatos y un título.</p>
+    
+    
+        <h1><li>Encabezados y Propiedades del texto</li></h1>
+        <p><b>Este es un texto en negrita.</b></p>
+       <p><em>Este es un texto en cursiva.</em></p> 
+       <p> <u>Este es un texto subrayado.</u></p>
+<!--Seccion division y agrupacion-->
+       <h1><li>Divisiones y Agrupación de Contenido</li></h1>
+       <div>
+        <h2>Sección 1</h2>
+        <p>Contenido de la primera sección agrupada en un div.</p>
+       </div>
+       <div>
+        <h2>Sección 2</h2>
+        <p>Contenido de la segunda sección agrupada en un div.</p>
+       </div>
+<!--Seccion listas y enlaces-->
+       <h1><li>Enlaces y Listas</li></h1>
+       <p>Visita nuestro <a href="https://www4.frm.utn.edu.ar/" target="_blank">sitio web</a> para más información</p>
+       <p>Enlaces internos:</p>
+       <ul>
+        <li><a href="#estructura">Ir a Estructura</a></li>
+        <li><a href="#multimedia">Ir a Multimedia</a></li>
+        <li><a href="#formulario">Ir a Formulario</a></li>
+       </ul>
+       <p>Lista desordenada:</p>
+       <ul>
+        <li>Primer ítem de una lista desordenada</li>
+        <li>Segundo ítem de una lista desordenada</li>
+       </ul>
+       <p>Lista ordenada:</p>
+       <ol>
+        <li>Primer ítem de una lista ordenada</li>
+        <li>Segundo ítem de una lista ordenada</li>
+       </ol>
+<!--Seccion multimedia-->
+       <h1 id="multimedia"><li>Elementos Multimedia</li></h1>
+       <img src="assets/imgcat.jpg" alt="un gato con moñito">
+       <video src="assets/video.mp4" controls></video>
+       <audio src="assets/audio.opus" controls></audio>
+       <!--Seccion tablas-->
+       <h1><li>Tablas</li></h1>
+       <table>
+        <thead>
+            <tr>
+                <th>Columna 1</th>
+                <th>Columna 2</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Dato 1</td>
+                <td>Dato 2</td>
+            </tr>
+            <tr>
+                <td>Dato 3</td>
+                <td>Dato 4</td>
+            </tr>
+        </tbody>
+       </table>
+       <!--Seccion formulario-->
+       <h1 id="formulario"><li>Formulario</li></h1>
+       <form>
+        <div>
+        <label>Email</label>
+        <input type="email" placeholder="ejemplo@ejemplo.com"/>
+        <label>Nombre</label>
+        <input type="text" placeholder="Ingrese su nombre"/>
+        <label>Apellido</label>
+        <input type="text" placeholder="Ingrese su apellido"/>
+    </div>
+    <div>
+        <label>Ingrese el mensaje que desea enviar</label>
+    <textarea placeholder="Mensaje"></textarea>
+</div>
+<button type="submit">Enviar formulario</button>
+       </form>
+
+    </ol>
+    <footer>
+        <ul style="list-style: none;">
+            <li><a href="https://github.com/candelabp" target="_blank">Github</a></li>
+            <li><a href="https://www.linkedin.com/in/candela-puerta-42491517a/" target="_blank">Linkedin</a></li>
+        </ul>
+    </footer>
+</body>
+</html>

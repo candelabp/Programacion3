@@ -1,0 +1,18 @@
+nav{
+    background-color: #f9e6ff;
+}
+table{
+width: 100%;
+border-collapse: collapse;
+background-color: #f9e6ff;
+}
+th,td{
+    border: 1px solid black;
+    padding: 8px;
+    text-align: center;
+}
+tfoot{
+    
+    font-weight: bold;
+
+}
